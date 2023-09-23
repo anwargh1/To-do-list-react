@@ -1,0 +1,32 @@
+.add-task{
+    height: 50px;
+    padding: 20px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-task input {
+    border: none;
+    width: 85%;
+    height: inherit;
+    border-radius: 8px;
+
+}
+
+
+.add-task input::placeholder {
+    padding-left: 8px;
+
+}
+
+.add-task input:focus {
+    border:2px solid greenyellow ;
+    border-radius: 8px;
+}
+
+.add-task button{
+    border-radius:8px;
+    width: 10%;
+    background-color: rgb(236, 236, 236);
+}

@@ -1,0 +1,13 @@
+.to-do-list{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 20px;
+    background-color: #aca163a3;
+}
+
+.to-do-list h1{
+    color: #607D8B;
+    align-self: center;
+    border-bottom: 3px solid #ffffff;
+}
